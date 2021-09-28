@@ -1,0 +1,2 @@
+class FavoriteEpisode < ApplicationRecord
+end
