@@ -5,7 +5,7 @@ class CreateFavoriteEpisodes < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :air_date
       t.string :episode
-      t.string :characters
+      t.string :characters, array: true, default: []
       t.string :url
       t.string :comment
 
