@@ -15,8 +15,7 @@ ActiveRecord::Schema.define(version: 2021_09_28_070957) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "favorite_episodes", id: false, force: :cascade do |t|
-    t.integer "id"
+  create_table "favorite_episodes", force: :cascade do |t|
     t.string "name"
     t.string "air_date"
     t.string "episode"
