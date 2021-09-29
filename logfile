@@ -9,3 +9,7 @@
 2021-09-28 03:12:05.506 EDT [35389] LOG:  database system was shut down at 2021-09-28 03:11:52 EDT
 2021-09-28 03:12:05.514 EDT [35388] LOG:  database system is ready to accept connections
 2021-09-28 03:12:25.639 EDT [35424] FATAL:  database "rick_and_morty_api_development" does not exist
+2021-09-29 09:32:43.405 EDT [63857] ERROR:  database "rick_and_morty_api_development" already exists
+2021-09-29 09:32:43.405 EDT [63857] STATEMENT:  CREATE DATABASE "rick_and_morty_api_development" ENCODING = 'unicode'
+2021-09-29 09:32:43.423 EDT [63859] ERROR:  database "rick_and_morty_api_test" already exists
+2021-09-29 09:32:43.423 EDT [63859] STATEMENT:  CREATE DATABASE "rick_and_morty_api_test" ENCODING = 'unicode'

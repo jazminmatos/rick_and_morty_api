@@ -46,6 +46,6 @@ class FavoriteEpisodesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def favorite_episode_params
-      params.require(:favorite_episode).permit(:id, :name, :air_date, :episode, :characters, :url)
+      params.require(:favorite_episode).permit(:id_number, :name, :air_date, :episode, :characters, :url, :comment)
     end
 end
