@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 2021_09_28_070957) do
     t.string "episode"
     t.string "characters", default: [], array: true
     t.string "url"
-    t.string "comment"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

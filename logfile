@@ -13,3 +13,185 @@
 2021-09-29 09:32:43.405 EDT [63857] STATEMENT:  CREATE DATABASE "rick_and_morty_api_development" ENCODING = 'unicode'
 2021-09-29 09:32:43.423 EDT [63859] ERROR:  database "rick_and_morty_api_test" already exists
 2021-09-29 09:32:43.423 EDT [63859] STATEMENT:  CREATE DATABASE "rick_and_morty_api_test" ENCODING = 'unicode'
+2021-09-29 11:01:15.311 EDT [67938] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 11:01:15.311 EDT [67938] DETAIL:  Key (id)=(3) already exists.
+2021-09-29 11:01:15.311 EDT [67938] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 11:06:10.046 EDT [67938] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 11:06:10.046 EDT [67938] DETAIL:  Key (id)=(15) already exists.
+2021-09-29 11:06:10.046 EDT [67938] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 11:06:12.631 EDT [67938] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 11:06:12.631 EDT [67938] DETAIL:  Key (id)=(17) already exists.
+2021-09-29 11:06:12.631 EDT [67938] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 11:45:26.502 EDT [69180] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 11:45:26.502 EDT [69180] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 11:45:26.502 EDT [69180] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:26:15.484 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:26:15.484 EDT [70305] DETAIL:  Key (id)=(3) already exists.
+2021-09-29 12:26:15.484 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:26:24.181 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:26:24.181 EDT [70305] DETAIL:  Key (id)=(2) already exists.
+2021-09-29 12:26:24.181 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:26:27.443 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:26:27.443 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:26:27.443 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:26:49.486 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:26:49.486 EDT [70305] DETAIL:  Key (id)=(5) already exists.
+2021-09-29 12:26:49.486 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:26:50.130 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:26:50.130 EDT [70305] DETAIL:  Key (id)=(6) already exists.
+2021-09-29 12:26:50.130 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:26:51.017 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:26:51.017 EDT [70305] DETAIL:  Key (id)=(7) already exists.
+2021-09-29 12:26:51.017 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:29:41.412 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:29:41.412 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:29:41.412 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:55.170 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:55.170 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:55.170 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:56.769 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:56.769 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:56.769 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:57.713 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:57.713 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:57.713 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:58.166 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:58.166 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:58.166 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:58.446 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:58.446 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:58.446 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:58.595 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:58.595 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:58.595 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:58.843 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:58.843 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:58.843 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:58.996 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:58.996 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:58.996 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:59.145 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:59.145 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:59.145 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:35:59.301 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:35:59.301 EDT [70305] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:35:59.301 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:36:05.667 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:36:05.667 EDT [70305] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:36:05.667 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:36:06.055 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:36:06.055 EDT [70305] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:36:06.055 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:36:06.410 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:36:06.410 EDT [70305] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:36:06.410 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:36:06.551 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:36:06.551 EDT [70305] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:36:06.551 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:36:06.701 EDT [70305] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:36:06.701 EDT [70305] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:36:06.701 EDT [70305] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:36:06.873 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:36:06.873 EDT [70729] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:36:06.873 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:40:00.738 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:40:00.738 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:40:00.738 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:40:04.302 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:40:04.302 EDT [70729] DETAIL:  Key (id)=(2) already exists.
+2021-09-29 12:40:04.302 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:41:25.058 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:41:25.058 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:41:25.058 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:41:35.179 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:41:35.179 EDT [70729] DETAIL:  Key (id)=(2) already exists.
+2021-09-29 12:41:35.179 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:41:40.130 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:41:40.130 EDT [70729] DETAIL:  Key (id)=(3) already exists.
+2021-09-29 12:41:40.130 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:41:57.488 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:41:57.488 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:41:57.488 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:41:59.984 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:41:59.984 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:41:59.984 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:02.234 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:02.234 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:02.234 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:04.189 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:04.189 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:04.189 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:09.666 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:09.666 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:09.666 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:12.090 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:12.090 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:12.090 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:14.063 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:14.063 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:14.063 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:16.157 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:16.157 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:16.157 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:18.115 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:18.115 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:18.115 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:20.048 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:20.048 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:20.048 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:21.972 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:21.972 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:21.972 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:25.884 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:25.884 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:42:25.884 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:42:40.527 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:42:40.527 EDT [70729] DETAIL:  Key (id)=(2) already exists.
+2021-09-29 12:42:40.527 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:44:32.860 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:44:32.860 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:44:32.860 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:45:05.453 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:45:05.453 EDT [70729] DETAIL:  Key (id)=(40) already exists.
+2021-09-29 12:45:05.453 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:45:06.597 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:45:06.597 EDT [70729] DETAIL:  Key (id)=(39) already exists.
+2021-09-29 12:45:06.597 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:45:07.458 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:45:07.458 EDT [70729] DETAIL:  Key (id)=(38) already exists.
+2021-09-29 12:45:07.458 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:50:56.900 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:50:56.900 EDT [70729] DETAIL:  Key (id)=(39) already exists.
+2021-09-29 12:50:56.900 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:51:00.589 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:51:00.589 EDT [70729] DETAIL:  Key (id)=(40) already exists.
+2021-09-29 12:51:00.589 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:51:08.327 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:51:08.327 EDT [70729] DETAIL:  Key (id)=(38) already exists.
+2021-09-29 12:51:08.327 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:51:09.983 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:51:09.983 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:51:09.983 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:51:10.911 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:51:10.911 EDT [70729] DETAIL:  Key (id)=(2) already exists.
+2021-09-29 12:51:10.911 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:51:13.847 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:51:13.847 EDT [70729] DETAIL:  Key (id)=(41) already exists.
+2021-09-29 12:51:13.847 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:51:44.204 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:51:44.204 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:51:44.204 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:52:10.713 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:52:10.713 EDT [70729] DETAIL:  Key (id)=(3) already exists.
+2021-09-29 12:52:10.713 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:52:29.697 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:52:29.697 EDT [70729] DETAIL:  Key (id)=(2) already exists.
+2021-09-29 12:52:29.697 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:52:43.949 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:52:43.949 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:52:43.949 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-29 12:55:21.292 EDT [70729] ERROR:  duplicate key value violates unique constraint "favorite_episodes_pkey"
+2021-09-29 12:55:21.292 EDT [70729] DETAIL:  Key (id)=(1) already exists.
+2021-09-29 12:55:21.292 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+2021-09-30 07:34:21.709 EDT [82603] ERROR:  cached plan must not change result type
+2021-09-30 07:34:21.709 EDT [82603] STATEMENT:  SELECT "favorite_episodes".* FROM "favorite_episodes" WHERE "favorite_episodes"."id" = $1 LIMIT $2
