@@ -195,3 +195,13 @@
 2021-09-29 12:55:21.292 EDT [70729] STATEMENT:  INSERT INTO "favorite_episodes" ("id", "name", "air_date", "episode", "characters", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
 2021-09-30 07:34:21.709 EDT [82603] ERROR:  cached plan must not change result type
 2021-09-30 07:34:21.709 EDT [82603] STATEMENT:  SELECT "favorite_episodes".* FROM "favorite_episodes" WHERE "favorite_episodes"."id" = $1 LIMIT $2
+2021-10-01 18:07:21.331 EDT [35388] LOG:  received smart shutdown request
+2021-10-01 18:07:21.334 EDT [35388] LOG:  background worker "logical replication launcher" (PID 35395) exited with exit code 1
+2021-10-01 18:07:21.334 EDT [35390] LOG:  shutting down
+2021-10-01 18:07:21.348 EDT [35388] LOG:  database system is shut down
+2021-10-06 04:22:03.643 EDT [27027] LOG:  starting PostgreSQL 13.3 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-06 04:22:03.648 EDT [27027] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-06 04:22:03.649 EDT [27027] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-06 04:22:03.649 EDT [27027] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-06 04:22:03.664 EDT [27028] LOG:  database system was shut down at 2021-10-01 18:07:21 EDT
+2021-10-06 04:22:03.674 EDT [27027] LOG:  database system is ready to accept connections
